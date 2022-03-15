@@ -11,7 +11,7 @@ module "sandbox_account_01" {
     ManagedOrganizationalUnit = "Sandbox"
     # Syntax for nested OU
     # ManagedOrganizationalUnit = "Sandbox (ou-xfe5-a8hb8ml8)"
-    SSOUserEmail     = "c2r.acp.aftsandbox.01"
+    SSOUserEmail     = "c2r.acp.aftsandbox.01@gmail.com"
     SSOUserFirstName = "c2racp"
     SSOUserLastName  = "sandbox01"
   }
@@ -28,7 +28,7 @@ module "sandbox_account_01" {
   }
 
   change_management_parameters = {
-    change_requested_by = "M C"
+    change_requested_by = "c2r.acp.aftsandbox.01@gmail.com"
     change_reason       = "testing the account vending process"
   }
 
